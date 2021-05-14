@@ -1,0 +1,16 @@
+# Virtual environment
+env
+trydjango_env
+
+# Python, Django caches
+__pycache__
+db.sqlite3
+*.pyc
+staticfiles/
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
