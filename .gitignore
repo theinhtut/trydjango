@@ -2,6 +2,9 @@
 env
 trydjango_env
 
+# Environment variable
+.env
+
 # Python, Django caches
 __pycache__
 db.sqlite3
