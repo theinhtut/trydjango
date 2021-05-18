@@ -1,0 +1,11 @@
+{% extends 'base.html' %} {% block content %}
+<h1>About page</h1>
+<p>this is from template</p>
+
+<p>{{name}}</p>
+<ul>
+  {% for list in lists %}
+  <li>{{list}}</li>
+  {%endfor%}
+</ul>
+{% endblock%}
